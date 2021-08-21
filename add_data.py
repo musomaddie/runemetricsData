@@ -83,7 +83,7 @@ def start():
 
     # Save the data
     _unprocess_dates(data)
-    data.to_csv(f"{decision_type}.csv")
+    data.to_csv(f"{decision_type}.csv", index=False)
 
 
 if __name__ == "__main__":
