@@ -30,7 +30,7 @@ def _unprocess_dates(data):
 def _add_value(data, date, item, quantity, item_type):
     if item in data[item_type].values:
         existing_dict = data.loc[
-            data.index[data[item_type] == item]][DATE_COLUMN_NAME][0]
+            data.index[data[item_type] == item]][DATE_COLUMN_NAME].item()
         existing_dict[date] = quantity
     else:
         # Create new series
