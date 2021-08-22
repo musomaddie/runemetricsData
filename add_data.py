@@ -1,3 +1,5 @@
+from TextFormat import TextFormat
+
 import pandas as pd
 DATE_COLUMN_NAME = "dates"
 
@@ -33,7 +35,6 @@ def _add_value(data, date, item, quantity, item_type):
             data.index[data[item_type] == item]][DATE_COLUMN_NAME].item()
         existing_dict[date] = quantity
     else:
-        # Create new series
         series = pd.Series(
             data={
                 item_type: item,
@@ -46,8 +47,73 @@ def _add_value(data, date, item, quantity, item_type):
     return data
 
 
-def add_details(data):
-    print("adding details not yet implemented")
+def _save_info(data, rowIdx, columnName, questionString):
+    input_value = input(questionString)
+    if input_value == "back":
+        return False
+    if input_value == "continue":
+        return True
+    data.at[rowIdx, columnName] = input_value
+    return True
+
+
+def _collect_info_drop(data, existing_value):
+    info1 = "category"
+    info2 = "average_worth"
+    type_col_name = "drop"
+    existing_idx = data.index[
+        data[type_col_name] == existing_value[type_col_name].item()
+    ].tolist()[0]
+
+    data[info1] = data[info1].astype(str)
+
+    if not _save_info(data, existing_idx, info1,
+                      f"\tWhat is the {TextFormat.BLUE}category"
+                      + f"{TextFormat.END}? "):
+        return False
+    return _save_info(data, existing_idx, info2,
+                      f"\tWhat is the {TextFormat.BLUE}average worth"
+                      + f"{TextFormat.END}? ")
+
+
+def _collect_info_kill(data, existing_value):
+    info1 = "level"
+    info2 = "category"
+    type_col_name = "kill"
+    existing_idx = data.index[
+        data[type_col_name] == existing_value[type_col_name].item()
+    ].tolist()[0]
+
+    data[info2] = data[info2].astype(str)
+
+    if not _save_info(data, existing_idx, info1,
+                      f"\tWhat is the {TextFormat.BLUE}level"
+                      + f"{TextFormat.END}? "):
+        return False
+    return _save_info(data, existing_idx, info2,
+                      f"\tWhat is the {TextFormat.BLUE}category"
+                      + f"{TextFormat.END}? ")
+
+
+def collect_information(data, existing_value, item_type):
+    if item_type == "drop":
+        return _collect_info_drop(data, existing_value)
+    return _collect_info_kill(data, existing_value)
+
+
+def add_details(data, item_type):
+    print()
+    missing_info = data[data.isnull().any(axis=1)].sort_values(by=[item_type])
+    for index, row in missing_info.iterrows():
+        existing_value = data.loc[
+            data.index[data[item_type] == row[item_type]]]
+        print(
+            f"Entering information for {TextFormat.BOLD}"
+            + f"{row[item_type]}{TextFormat.END}")
+        if not collect_information(data, existing_value, item_type):
+            return
+    # Prompt for information: if cancel typed move on to the next one, if back
+    # quit
 
 
 def add_new_values(data, decision_type):
@@ -77,7 +143,7 @@ def start():
         input("Adding details or adding new values? "),
         ["details", "new values"])
     if decision == "details":
-        add_details(data)
+        add_details(data, decision_type[:-1])
     else:
         data = add_new_values(data, decision_type[:-1])
 
