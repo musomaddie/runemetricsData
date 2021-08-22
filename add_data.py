@@ -102,9 +102,9 @@ def collect_information(data, existing_value, item_type):
 
 
 def add_details(data, item_type):
-    print()
     missing_info = data[data.isnull().any(axis=1)].sort_values(by=[item_type])
     for index, row in missing_info.iterrows():
+        print()
         existing_value = data.loc[
             data.index[data[item_type] == row[item_type]]]
         print(
