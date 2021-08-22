@@ -1,38 +1,38 @@
 drop,dates,category,average_worth
-Accursed Ashes,19th August:128|20th August:1,testing,nan
-Bittercap Mushroom Spore,19th August:1,nan,nan
-Blue Charm,19th August:1,nan,nan
-Bones,19th August:4|20th August:7,nan,nan
-Chaos Rune,19th August:57,nan,nan
-Crimson Charm,19th August:1,nan,nan
-Fungal Flake,19th August:473,nan,nan
-Gold Charm,19th August:5,nan,nan
-Gorajian Mushroom,19th August:12,nan,nan
-Green Charm,19th August:14,nan,nan
-Grimy Cadantine,19th August:1,nan,nan
-Grimy Guam,19th August:2,nan,nan
-Grimy Harralander,19th August:2,nan,nan
-Grimy Irit,19th August:1,nan,nan
-Grimy Kwuarm,19th August:1,nan,nan
-Grimy Ranarr,19th August:3,nan,nan
-Grimy Tarromin,19th August:5,nan,nan
-Harralander Seed,19th August:1,nan,nan
-Infernal Ashes,19th August:1,nan,nan
-Jangerberry Seed,19th August:1,nan,nan
-Limpwurt Root,19th August:15,nan,nan
-Limpwurt Seed,19th August:3,nan,nan
-Marrentill Seed,19th August:1,nan,nan
-Neem Drupe,19th August:286,nan,nan
-Polypore Spore,19th August:550,nan,nan
-Potato Cactus,19th August:109,nan,nan
-Pure Essence,19th August:285,nan,nan
-Raw Wolf Meat,19th August:6|20th August:3,nan,nan
-Snape Grass,19th August:80,nan,nan
-Spirit Emerald,19th August:1,nan,nan
-Spirit Weed Seed,19th August:2,nan,nan
-Strawberry Seed,19th August:2,nan,nan
-Swamp Toad,19th August:3,nan,nan
-Tarromin Seed,19th August:3,nan,nan
-Wolf Bones,19th August:6|20th August:3,nan,nan
-Fire Rune,20th August:33,nan,nan
-Raw Oomlie,20th August:1,nan,nan
+Accursed Ashes,19th August:128|20th August:1,Ashes and Bones,1.0
+Bittercap Mushroom Spore,19th August:1,Seeds,51.0
+Blue Charm,19th August:1,Charms,0.0
+Bones,19th August:4|20th August:7,Ashes and Bones,0.0
+Chaos Rune,19th August:57,Runes,28.0
+Crimson Charm,19th August:1,Charms,0.0
+Fungal Flake,19th August:473,Polypore Dungeon,2.0
+Gold Charm,19th August:5,Charms,0.0
+Gorajian Mushroom,19th August:12,Polypore Dungeon,48.0
+Green Charm,19th August:14,Charms,0.0
+Grimy Cadantine,19th August:1,Grimy Herbs,0.0
+Grimy Guam,19th August:2,Grimy Herbs,18.0
+Grimy Harralander,19th August:2,Grimy Herbs,0.0
+Grimy Irit,19th August:1,Grimy Herbs,0.0
+Grimy Kwuarm,19th August:1,Grimy Herbs,0.0
+Grimy Ranarr,19th August:3,Grimy Herbs,0.0
+Grimy Tarromin,19th August:5,Grimy Herbs,0.0
+Harralander Seed,19th August:1,Seeds,7.0
+Infernal Ashes,19th August:1,Ashes and Bones,1.0
+Jangerberry Seed,19th August:1,Seeds,36.0
+Limpwurt Root,19th August:15,Ingredients,36.0
+Limpwurt Seed,19th August:3,Seeds,7.0
+Marrentill Seed,19th August:1,Seeds,3.0
+Neem Drupe,19th August:286,Polypore Dungeon,0.0
+Polypore Spore,19th August:550,Polypore Dungeon,6.0
+Potato Cactus,19th August:109,Ingredients,0.0
+Pure Essence,19th August:285,Essence,2.0
+Raw Wolf Meat,19th August:6|20th August:3,Raw Food,35.0
+Snape Grass,19th August:80,Ingredients,6.0
+Spirit Emerald,19th August:1,Spirit Gems,0.0
+Spirit Weed Seed,19th August:2,Seeds,10.0
+Strawberry Seed,19th August:2,Seeds,10.0
+Swamp Toad,19th August:3,Ingredients,1.0
+Tarromin Seed,19th August:3,Seeds,4.0
+Wolf Bones,19th August:6|20th August:3,Ashes and Bones,0.0
+Fire Rune,20th August:33,Runes,3.0
+Raw Oomlie,20th August:1,Raw Food,6.0

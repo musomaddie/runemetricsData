@@ -1,17 +1,17 @@
 kill,dates,level,category
-Fungal Mage,19th August:128,,
-Infested Axe,19th August:13,,
-Wolf,19th August:4,,
-Fungal Rodent,19th August:3,,
-Adolescent White Wolf,19th August:2,,
-Agrith Naar,19th August:1,,
-Guardian of Armadyl,20th August:5,,
-Rat,20th August:4,,
-Jungle Wolf,20th August:3,,
-Nezikchened,20th August:3,,
-Death Wing,20th August:1,,
-Oomlie Bird,20th August:1,,
-Lesser Demon,20th August:1,,
-Ice Spider,20th August:1,,
-Fire Warrior of Lesarkus,20th August:1,,
-Mercenary Captain,20th August:1,,
+Fungal Mage,19th August:128,81.0,Creature
+Infested Axe,19th August:13,105.0,Creature
+Wolf,19th August:4,42.0,Wild Animal
+Fungal Rodent,19th August:3,26.0,Creature
+Adolescent White Wolf,19th August:2,8.0,Wild Animals
+Agrith Naar,19th August:1,84.0,Quest Boss
+Guardian of Armadyl,20th August:5,42.0,Creature
+Rat,20th August:4,1.0,Wild Animal
+Jungle Wolf,20th August:3,88.0,Wild Animal
+Nezikchened,20th August:3,84.0,Quest Boss
+Death Wing,20th August:1,77.0,Creature
+Oomlie Bird,20th August:1,89.0,Wild Animal
+Lesser Demon,20th August:1,70.0,Creature
+Ice Spider,20th August:1,42.0,Creature
+Fire Warrior of Lesarkus,20th August:1,77.0,Quest Enemy
+Mercenary Captain,20th August:1,15.0,Quest Enemy
