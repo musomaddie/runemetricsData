@@ -1,12 +1,12 @@
 drop,dates,category,average_worth
 Accursed Ashes,19th August:128|20th August:1,Ashes and Bones,1.0
 Bittercap Mushroom Spore,19th August:1,Seeds,51.0
-Blue Charm,19th August:1,Charms,0.0
-Bones,19th August:4|20th August:7,Ashes and Bones,0.0
+Blue Charm,19th August:1|25th August:1,Charms,0.0
+Bones,19th August:4|20th August:7|24th August:1|25th August:1,Ashes and Bones,0.0
 Chaos Rune,19th August:57,Runes,28.0
 Crimson Charm,19th August:1,Charms,0.0
 Fungal Flake,19th August:473,Polypore Dungeon,2.0
-Gold Charm,19th August:5,Charms,0.0
+Gold Charm,19th August:5|24th August:1|25th August:3,Charms,0.0
 Gorajian Mushroom,19th August:12,Polypore Dungeon,48.0
 Green Charm,19th August:14,Charms,0.0
 Grimy Cadantine,19th August:1,Grimy Herbs,0.0
@@ -33,6 +33,20 @@ Spirit Weed Seed,19th August:2,Seeds,10.0
 Strawberry Seed,19th August:2,Seeds,10.0
 Swamp Toad,19th August:3,Ingredients,1.0
 Tarromin Seed,19th August:3,Seeds,4.0
-Wolf Bones,19th August:6|20th August:3,Ashes and Bones,0.0
+Wolf Bones,19th August:6|20th August:3|24th August:1,Ashes and Bones,0.0
 Fire Rune,20th August:33,Runes,3.0
 Raw Oomlie,20th August:1,Raw Food,6.0
+Minnow,23rd August:33,,
+Big Bones,24th August:5|25th August:6,,
+Blood Rune,24th August:5,,
+Chocolate Cake,24th August:2,,
+Coins,24th August:290|25th August:405,,
+Cowhide,24th August:1,,
+Raw Beef,24th August:1,,
+Super Restore (4),24th August:1,,
+Ashes,25th August:2,,
+Bat Bones,25th August:1,,
+Gold Stone Spirit,25th August:1,,
+Shadow Diamond,25th August:1,,
+Tiny Bladed Steel Salvage,25th August:1,,
+Uncut Ruby,25th August:1,,
