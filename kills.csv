@@ -16,7 +16,7 @@ Ice Spider,20th August:1,42.0,Creature
 Fire Warrior of Lesarkus,20th August:1,77.0,Quest Enemy
 Mercenary Captain,20th August:1,15.0,Quest Enemy
 Crassian Scout,23rd August:11,0.0,Quest Enemy
-Cow,24th August:1,1.0,Wild Animal
+Cow,24th August:1|26th August:10,1.0,Wild Animal
 Dessous,24th August:1,84.0,Quest Enemy
 Ice Troll,24th August:5,89.0,Creature
 Kamil,24th August:1,88.0,Quest Enemy
@@ -29,5 +29,6 @@ Fire Elemental,25th August:1,44.0,Creature
 Fire Giant,25th August:5,85.0,Creature
 Giant Skeleton,25th August:1,84.0,Creature
 Mummy,25th August:1,77.0,Creature
-Scarabs,25th August:2,86.0,Creature
+Scarabs,25th August:2|26th August:1,86.0,Creature
 Shadow Hound,25th August:1,67.0,Creature
+Aberrant Spectre,26th August:93,72.0,Slayer Monster

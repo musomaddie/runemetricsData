@@ -1,21 +1,21 @@
 drop,dates,category,average_worth
 Accursed Ashes,19th August:128|20th August:1,Ashes and Bones,1.0
 Bittercap Mushroom Spore,19th August:1,Seeds,51.0
-Blue Charm,19th August:1|25th August:1,Charms,0.0
-Bones,19th August:4|20th August:7|24th August:1|25th August:1,Ashes and Bones,0.0
+Blue Charm,19th August:1|25th August:1|26th August:6,Charms,0.0
+Bones,19th August:4|20th August:7|24th August:1|25th August:1|26th August:10,Ashes and Bones,0.0
 Chaos Rune,19th August:57,Runes,28.0
-Crimson Charm,19th August:1,Charms,0.0
+Crimson Charm,19th August:1|26th August:3,Charms,0.0
 Fungal Flake,19th August:473,Polypore Dungeon,2.0
-Gold Charm,19th August:5|24th August:1|25th August:3,Charms,0.0
+Gold Charm,19th August:5|24th August:1|25th August:3|26th August:13,Charms,0.0
 Gorajian Mushroom,19th August:12,Polypore Dungeon,48.0
-Green Charm,19th August:14,Charms,0.0
-Grimy Cadantine,19th August:1,Grimy Herbs,0.0
-Grimy Guam,19th August:2,Grimy Herbs,18.0
-Grimy Harralander,19th August:2,Grimy Herbs,0.0
-Grimy Irit,19th August:1,Grimy Herbs,0.0
-Grimy Kwuarm,19th August:1,Grimy Herbs,0.0
-Grimy Ranarr,19th August:3,Grimy Herbs,0.0
-Grimy Tarromin,19th August:5,Grimy Herbs,0.0
+Green Charm,19th August:14|26th August:8,Charms,0.0
+Grimy Cadantine,19th August:1|26th August:3,Grimy Herbs,0.0
+Grimy Guam,19th August:2|26th August:18,Grimy Herbs,18.0
+Grimy Harralander,19th August:2|26th August:11,Grimy Herbs,0.0
+Grimy Irit,19th August:1|26th August:3,Grimy Herbs,0.0
+Grimy Kwuarm,19th August:1|26th August:6,Grimy Herbs,0.0
+Grimy Ranarr,19th August:3|26th August:15,Grimy Herbs,0.0
+Grimy Tarromin,19th August:5|26th August:12,Grimy Herbs,0.0
 Harralander Seed,19th August:1,Seeds,7.0
 Infernal Ashes,19th August:1,Ashes and Bones,1.0
 Jangerberry Seed,19th August:1,Seeds,36.0
@@ -27,7 +27,7 @@ Polypore Spore,19th August:550,Polypore Dungeon,6.0
 Potato Cactus,19th August:109,Ingredients,0.0
 Pure Essence,19th August:285,Essence,2.0
 Raw Wolf Meat,19th August:6|20th August:3,Raw Food,35.0
-Snape Grass,19th August:80,Ingredients,6.0
+Snape Grass,19th August:80|26th August:128,Ingredients,6.0
 Spirit Emerald,19th August:1,Spirit Gems,0.0
 Spirit Weed Seed,19th August:2,Seeds,10.0
 Strawberry Seed,19th August:2,Seeds,10.0
@@ -40,9 +40,9 @@ Minnow,23rd August:33,Food,3.0
 Big Bones,24th August:5|25th August:6,Ashes and Bones,0.0
 Blood Rune,24th August:5,Runes,110.0
 Chocolate Cake,24th August:2,Food,42.0
-Coins,24th August:290|25th August:405,Money,1.0
-Cowhide,24th August:1,Resources,0.0
-Raw Beef,24th August:1,Raw Food,35.0
+Coins,24th August:290|25th August:405|26th August:28472,Money,1.0
+Cowhide,24th August:1|26th August:10,Resources,0.0
+Raw Beef,24th August:1|26th August:10,Raw Food,35.0
 Super Restore (4),24th August:1,Resources,180.0
 Ashes,25th August:2,Ashes and Bones,1.0
 Bat Bones,25th August:1,Ashes and Bones,0.0
@@ -50,3 +50,16 @@ Gold Stone Spirit,25th August:1,Stone Spirits,0.0
 Shadow Diamond,25th August:1,Quest Item,0.0
 Tiny Bladed Steel Salvage,25th August:1,Salvage,240.0
 Uncut Ruby,25th August:1,Resources,60.0
+Chargebow,26th August:1,Weapons,0.0
+Fellstalk Seed,26th August:10,Seeds,38.0
+Ghostly Essence,26th August:51,Ingredients,60.0
+Grimy Avantoe,26th August:8,Grimy Herbs,0.0
+Grimy Lantadyme,26th August:4,Grimy Herbs,0.0
+Grimy Marrentill,26th August:13,Grimy Herbs,0.0
+Jangerberries,26th August:4,Food,0.0
+Lava Battlestaff,26th August:3,Weapons,10200.0
+Medium Plated Rune Salvage,26th August:1,Salvage,24000.0
+Sealed Clue Scroll (hard),26th August:2,Clue Scroll,0.0
+Swamp Tar,26th August:100,Ingredients,0.0
+Tiny Blunt Rune Salvage,26th August:4,Salvage,8000.0
+Uncut Dragonstone,26th August:1,Gems,600.0
