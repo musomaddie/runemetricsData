@@ -11,7 +11,7 @@ Jungle Wolf,20th August:3,88.0,Wild Animal
 Nezikchened,20th August:3,84.0,Quest Boss
 Death Wing,20th August:1,77.0,Creature
 Oomlie Bird,20th August:1,89.0,Wild Animal
-Lesser Demon,20th August:1,70.0,Creature
+Lesser Demon,20th August:1|27th August:162,70.0,Creature
 Ice Spider,20th August:1,42.0,Creature
 Fire Warrior of Lesarkus,20th August:1,77.0,Quest Enemy
 Mercenary Captain,20th August:1,15.0,Quest Enemy
@@ -32,3 +32,9 @@ Mummy,25th August:1,77.0,Creature
 Scarabs,25th August:2|26th August:1,86.0,Creature
 Shadow Hound,25th August:1,67.0,Creature
 Aberrant Spectre,26th August:93,72.0,Slayer Monster
+Banshee,27th August:100,37.0,Slayer Monster
+Bloodveld (61),27th August:101,61.0,Slayer Monster
+Bloodveld (68),27th August:83,68.0,Slayer Monster
+Chaos Dwarf,27th August:3,47.0,Creature
+Imp,27th August:62,5.0,Creature
+Infernal Mage,27th August:17,72.0,Slayer Monster

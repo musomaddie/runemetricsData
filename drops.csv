@@ -1,26 +1,26 @@
 drop,dates,category,average_worth
-Accursed Ashes,19th August:128|20th August:1,Ashes and Bones,1.0
+Accursed Ashes,19th August:128|20th August:1|27th August:162,Ashes and Bones,1.0
 Bittercap Mushroom Spore,19th August:1,Seeds,51.0
-Blue Charm,19th August:1|25th August:1|26th August:6,Charms,0.0
-Bones,19th August:4|20th August:7|24th August:1|25th August:1|26th August:10,Ashes and Bones,0.0
+Blue Charm,19th August:1|25th August:1|26th August:6|27th August:2,Charms,0.0
+Bones,19th August:4|20th August:7|24th August:1|25th August:1|26th August:10|27th August:204,Ashes and Bones,0.0
 Chaos Rune,19th August:57,Runes,28.0
-Crimson Charm,19th August:1|26th August:3,Charms,0.0
+Crimson Charm,19th August:1|26th August:3|27th August:19,Charms,0.0
 Fungal Flake,19th August:473,Polypore Dungeon,2.0
-Gold Charm,19th August:5|24th August:1|25th August:3|26th August:13,Charms,0.0
+Gold Charm,19th August:5|24th August:1|25th August:3|26th August:13|27th August:23,Charms,0.0
 Gorajian Mushroom,19th August:12,Polypore Dungeon,48.0
-Green Charm,19th August:14|26th August:8,Charms,0.0
-Grimy Cadantine,19th August:1|26th August:3,Grimy Herbs,0.0
-Grimy Guam,19th August:2|26th August:18,Grimy Herbs,18.0
-Grimy Harralander,19th August:2|26th August:11,Grimy Herbs,0.0
-Grimy Irit,19th August:1|26th August:3,Grimy Herbs,0.0
+Green Charm,19th August:14|26th August:8|27th August:74,Charms,0.0
+Grimy Cadantine,19th August:1|26th August:3|27th August:3,Grimy Herbs,0.0
+Grimy Guam,19th August:2|26th August:18|27th August:13,Grimy Herbs,18.0
+Grimy Harralander,19th August:2|26th August:11|27th August:9,Grimy Herbs,0.0
+Grimy Irit,19th August:1|26th August:3|27th August:2,Grimy Herbs,0.0
 Grimy Kwuarm,19th August:1|26th August:6,Grimy Herbs,0.0
-Grimy Ranarr,19th August:3|26th August:15,Grimy Herbs,0.0
-Grimy Tarromin,19th August:5|26th August:12,Grimy Herbs,0.0
+Grimy Ranarr,19th August:3|26th August:15|27th August:8,Grimy Herbs,0.0
+Grimy Tarromin,19th August:5|26th August:12|27th August:6,Grimy Herbs,0.0
 Harralander Seed,19th August:1,Seeds,7.0
 Infernal Ashes,19th August:1,Ashes and Bones,1.0
-Jangerberry Seed,19th August:1,Seeds,36.0
+Jangerberry Seed,19th August:1|27th August:5,Seeds,36.0
 Limpwurt Root,19th August:15,Ingredients,36.0
-Limpwurt Seed,19th August:3,Seeds,7.0
+Limpwurt Seed,19th August:3|27th August:3,Seeds,7.0
 Marrentill Seed,19th August:1,Seeds,3.0
 Neem Drupe,19th August:286,Polypore Dungeon,0.0
 Polypore Spore,19th August:550,Polypore Dungeon,6.0
@@ -29,37 +29,95 @@ Pure Essence,19th August:285,Essence,2.0
 Raw Wolf Meat,19th August:6|20th August:3,Raw Food,35.0
 Snape Grass,19th August:80|26th August:128,Ingredients,6.0
 Spirit Emerald,19th August:1,Spirit Gems,0.0
-Spirit Weed Seed,19th August:2,Seeds,10.0
-Strawberry Seed,19th August:2,Seeds,10.0
+Spirit Weed Seed,19th August:2|27th August:2,Seeds,10.0
+Strawberry Seed,19th August:2|27th August:1,Seeds,10.0
 Swamp Toad,19th August:3,Ingredients,1.0
 Tarromin Seed,19th August:3,Seeds,4.0
 Wolf Bones,19th August:6|20th August:3|24th August:1,Ashes and Bones,0.0
-Fire Rune,20th August:33,Runes,3.0
+Fire Rune,20th August:33|27th August:434,Runes,3.0
 Raw Oomlie,20th August:1,Raw Food,6.0
 Minnow,23rd August:33,Food,3.0
-Big Bones,24th August:5|25th August:6,Ashes and Bones,0.0
+Big Bones,24th August:5|25th August:6|27th August:8,Ashes and Bones,0.0
 Blood Rune,24th August:5,Runes,110.0
 Chocolate Cake,24th August:2,Food,42.0
-Coins,24th August:290|25th August:405|26th August:28472,Money,1.0
+Coins,24th August:290|25th August:405|26th August:28472|27th August:122389,Money,1.0
 Cowhide,24th August:1|26th August:10,Resources,0.0
 Raw Beef,24th August:1|26th August:10,Raw Food,35.0
 Super Restore (4),24th August:1,Resources,180.0
-Ashes,25th August:2,Ashes and Bones,1.0
+Ashes,25th August:2|27th August:5,Ashes and Bones,1.0
 Bat Bones,25th August:1,Ashes and Bones,0.0
-Gold Stone Spirit,25th August:1,Stone Spirits,0.0
+Gold Stone Spirit,25th August:1|27th August:18,Stone Spirits,0.0
 Shadow Diamond,25th August:1,Quest Item,0.0
 Tiny Bladed Steel Salvage,25th August:1,Salvage,240.0
 Uncut Ruby,25th August:1,Resources,60.0
 Chargebow,26th August:1,Weapons,0.0
 Fellstalk Seed,26th August:10,Seeds,38.0
-Ghostly Essence,26th August:51,Ingredients,60.0
-Grimy Avantoe,26th August:8,Grimy Herbs,0.0
+Ghostly Essence,26th August:51|27th August:2,Ingredients,60.0
+Grimy Avantoe,26th August:8|27th August:5,Grimy Herbs,0.0
 Grimy Lantadyme,26th August:4,Grimy Herbs,0.0
-Grimy Marrentill,26th August:13,Grimy Herbs,0.0
+Grimy Marrentill,26th August:13|27th August:9,Grimy Herbs,0.0
 Jangerberries,26th August:4,Food,0.0
 Lava Battlestaff,26th August:3,Weapons,10200.0
 Medium Plated Rune Salvage,26th August:1,Salvage,24000.0
-Sealed Clue Scroll (hard),26th August:2,Clue Scroll,0.0
+Sealed Clue Scroll (hard),26th August:2,Clue Scrolls,0.0
 Swamp Tar,26th August:100,Ingredients,0.0
 Tiny Blunt Rune Salvage,26th August:4,Salvage,8000.0
 Uncut Dragonstone,26th August:1,Gems,600.0
+Acne Potion,27th August:4,Quest Item,0.0
+Air Rune,27th August:15,Runes,3.0
+Belladonna Seed,27th August:1,Seeds,106.0
+Black 2h Sword,27th August:8,Weapons,1152.0
+Black Bead,27th August:2,Beads,2.0
+Black Boots,27th August:15,Armour,345.0
+Black Hatchet,27th August:6,Tools,230.0
+Black Kiteshield,27th August:11,Armour,1272.0
+Black Longsword,27th August:9,Weapons,576.0
+Body Rune,27th August:10,Runes,3.0
+Bread,27th August:2,Food,14.0
+Burnt Meat,27th August:2,Food,0.0
+Cabbage,27th August:3,Food,0.0
+Cactus Seed,27th August:1,Seeds,59.0
+Chaos rune,27th August:30,Runes,28.0
+Chefs Hat,27th August:3,Armour,1.0
+Clay,27th August:4,Resources,0.0
+Coal Stone Spirit,27th August:32,Stone Spirit,0.0
+Congealed Blood,27th August:58,Resources,0.0
+Death Rune,27th August:84,Runes,62.0
+Earth Rune,27th August:20,Runes,3.0
+Flier,27th August:3,Junk,0.0
+Grapes,27th August:6,Food,0.0
+Grimy Dwarf Weed,27th August:2,Grimy Herbs,0.0
+Harralender Seed,27th August:2,Seeds,7.0
+Huge Plated Steel Salvage,27th August:9,Salvage,1200.0
+Imphide,27th August:62,Resources,30.0
+Impious Ashes,27th August:62,Ashes and Bones,1.0
+Iron Stone Spirit,27th August:39,Stone Spirits,0.0
+Lobster,27th August:12,Food,160.0
+Meat Pizza,27th August:16,Food,30.0
+Medium Bladed Mithril Salvage,27th August:6,Salvage,1800.0
+Medium Bladed Steel Salvage,27th August:8,Salvage,720.0
+Medium Plated Mithril Salvage,27th August:17,Salvage,1800.0
+Mind Rune,27th August:10,Runes,3.0
+Mithril Arrow,27th August:640,Weapons,45.0
+Muddy Key,27th August:1,Keys,0.0
+Off-hand Black Longsword,27th August:6,Weapons,576.0
+Pike,27th August:11,Food,15.0
+Red Bead,27th August:3,Beads,2.0
+Rune Javelin,27th August:5,Weapons,374.0
+Sealed Clue Scroll (easy),27th August:1,Clue Scrolls,0.0
+Small Bladed Mithril Salvage,27th August:9,Salvage,1200.0
+Small Spiky Bronze Salvage,27th August:7,Salvage,40.0
+Staff,27th August:2,Weapons,9.0
+Staff of Air,27th August:3,Weapons,900.0
+Thin Snail,27th August:3,Raw Food,36.0
+Tiny Plated Rune Salvage,27th August:2,Salvage,8000.0
+Uncut Emerald,27th August:2,Gems,30.0
+Uncut Sapphire,27th August:9,Gems,15.0
+Watermelon Seed,27th August:1,Seeds,33.0
+Wheat,27th August:3,Food,1.0
+White Bead,27th August:2,Beads,2.0
+Wildblood Seed,27th August:1,Seeds,8.0
+Wizard Hat,27th August:7,Armour,1.0
+Wizard Robe Skirt,27th August:2,Armour,1.0
+Wizard Robe Top,27th August:4,Armour,9.0
+Yellow Bead,27th August:4,Beads,2.0
