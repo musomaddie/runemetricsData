@@ -43,7 +43,6 @@ def _add_value(data, date, item, quantity, item_type):
         data = data.append(series, ignore_index=True)
 
     print(f"Successfully added {item}.")
-    print()
     return data
 
 
@@ -109,7 +108,7 @@ def add_details(data, item_type):
             data.index[data[item_type] == row[item_type]]]
         print(
             f"Entering information for {TextFormat.BOLD}"
-            + f"{row[item_type]}{TextFormat.END}")
+            f"{row[item_type]}{TextFormat.END}")
         if not collect_information(data, existing_value, item_type):
             return
     # Prompt for information: if cancel typed move on to the next one, if back
@@ -117,13 +116,17 @@ def add_details(data, item_type):
 
 
 def add_new_values(data, decision_type):
-    date = input("What date are these values for? ")
+    date = input(f"What {TextFormat.BLUE}date{TextFormat.END} "
+                 "are these values for? ")
     while True:
-        item = input("Enter an item or back: ")
+        print()
+        item = input(f"Enter an {TextFormat.BLUE}item{TextFormat.END} "
+                     "or back: ")
         if item.lower() == "back":
             break
 
-        quantity = input("Enter a quantity or cancel: ")
+        quantity = input(f"Enter a {TextFormat.BLUE}quantity{TextFormat.END} "
+                         "or cancel: ")
         if quantity.lower() == "cancel":
             continue
 
@@ -134,13 +137,16 @@ def add_new_values(data, decision_type):
 
 def start():
     decision_type = _confirm_input(
-        input("Modifying drops or kills? "), ["drops", "kills"])
+        input(f"Modifying {TextFormat.GREEN}drops{TextFormat.END} "
+              f"or {TextFormat.GREEN}kills{TextFormat.END}? "),
+        ["drops", "kills"])
     # Set up the data
     data = pd.read_csv(f"{decision_type}.csv")
     _process_dates(data)
 
     decision = _confirm_input(
-        input("Adding details or adding new values? "),
+        input(f"Adding {TextFormat.GREEN}details{TextFormat.END} "
+              f"or adding {TextFormat.GREEN}new values{TextFormat.END}? "),
         ["details", "new values"])
     if decision == "details":
         add_details(data, decision_type[:-1])
