@@ -68,11 +68,11 @@ def _collect_info_drop(data, existing_value):
 
     if not _save_info(data, existing_idx, info1,
                       f"\tWhat is the {TextFormat.BLUE}category"
-                      + f"{TextFormat.END}? "):
+                      f"{TextFormat.END}? "):
         return False
     return _save_info(data, existing_idx, info2,
                       f"\tWhat is the {TextFormat.BLUE}average worth"
-                      + f"{TextFormat.END}? ")
+                      f"{TextFormat.END}? ")
 
 
 def _collect_info_kill(data, existing_value):
@@ -87,11 +87,11 @@ def _collect_info_kill(data, existing_value):
 
     if not _save_info(data, existing_idx, info1,
                       f"\tWhat is the {TextFormat.BLUE}level"
-                      + f"{TextFormat.END}? "):
+                      f"{TextFormat.END}? "):
         return False
     return _save_info(data, existing_idx, info2,
                       f"\tWhat is the {TextFormat.BLUE}category"
-                      + f"{TextFormat.END}? ")
+                      f"{TextFormat.END}? ")
 
 
 def collect_information(data, existing_value, item_type):
@@ -111,8 +111,6 @@ def add_details(data, item_type):
             f"{row[item_type]}{TextFormat.END}")
         if not collect_information(data, existing_value, item_type):
             return
-    # Prompt for information: if cancel typed move on to the next one, if back
-    # quit
 
 
 def add_new_values(data, decision_type):
