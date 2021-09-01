@@ -1,32 +1,13 @@
-from TextFormat import TextFormat
+from util import TextFormat
+from util import confirm_input
+from util import process_dates_from_dict
+from util import process_dates_from_string
 
 import pandas as pd
+
+
 DATE_COLUMN_NAME = "dates"
-
-
-def _confirm_input(input_value, valid_values):
-    while input_value.lower() not in valid_values:
-        print(f"{input_value} is not a valid option.")
-        input_value = input(f"Selection from {', '.join(valid_values)}? ")
-    return input_value
-
-
-def _process_dates(data):
-    outer_sep = "|"
-    inner_sep = ":"
-    for index, row in data.iterrows():
-        data.at[index, DATE_COLUMN_NAME] = {
-            item.split(inner_sep)[0]: item.split(inner_sep)[1]
-            for item in row[DATE_COLUMN_NAME].split(outer_sep)}
-
-
-def _unprocess_dates(data):
-    outer_sep = "|"
-    inner_sep = ":"
-    for index, row in data.iterrows():
-        data.at[index, DATE_COLUMN_NAME] = outer_sep.join(
-            inner_sep.join((key, val))
-            for (key, val) in row[DATE_COLUMN_NAME].items())
+TESTING = True
 
 
 def _add_value(data, date, item, quantity, item_type):
@@ -134,15 +115,17 @@ def add_new_values(data, decision_type):
 
 
 def start():
-    decision_type = _confirm_input(
+    decision_type = confirm_input(
         input(f"Modifying {TextFormat.GREEN}drops{TextFormat.END} "
               f"or {TextFormat.GREEN}kills{TextFormat.END}? "),
         ["drops", "kills"])
     # Set up the data
-    data = pd.read_csv(f"{decision_type}.csv")
-    _process_dates(data)
+    filename = (f"test_data/{decision_type}.csv" if TESTING
+                else f"{decision_type}.csv")
+    data = pd.read_csv(filename)
+    process_dates_from_string(data)
 
-    decision = _confirm_input(
+    decision = confirm_input(
         input(f"Adding {TextFormat.GREEN}details{TextFormat.END} "
               f"or adding {TextFormat.GREEN}new values{TextFormat.END}? "),
         ["details", "new values"])
@@ -152,8 +135,8 @@ def start():
         data = add_new_values(data, decision_type[:-1])
 
     # Save the data
-    _unprocess_dates(data)
-    data.to_csv(f"{decision_type}.csv", index=False)
+    process_dates_from_dict(data)
+    data.to_csv(filename, index=False)
 
 
 if __name__ == "__main__":
