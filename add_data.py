@@ -140,4 +140,7 @@ def start():
 
 
 if __name__ == "__main__":
+    if TESTING:
+        print(f"{TextFormat.BOLD}{TextFormat.PURPLE}IN TESTING MODE!!!!"
+              f"{TextFormat.END}{TextFormat.END}")
     start()
