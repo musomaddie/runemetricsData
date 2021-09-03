@@ -1,14 +1,14 @@
 drop,dates,category,average_worth
 Accursed Ashes,19th August:128|20th August:1|27th August:162,Ashes and Bones,1.0
 Bittercap Mushroom Spore,19th August:1,Seeds,51.0
-Blue Charm,19th August:1|25th August:1|26th August:6|27th August:2,Charms,0.0
-Bones,19th August:4|20th August:7|24th August:1|25th August:1|26th August:10|27th August:204|1st September:120,Ashes and Bones,0.0
+Blue Charm,19th August:1|25th August:1|26th August:6|27th August:2|2nd September:1,Charms,0.0
+Bones,19th August:4|20th August:7|24th August:1|25th August:1|26th August:10|27th August:204|1st September:120|2nd September:5,Ashes and Bones,0.0
 Chaos Rune,19th August:57|28th August:30,Runes,28.0
-Crimson Charm,19th August:1|26th August:3|27th August:19|28th August:3|1st September:9,Charms,0.0
+Crimson Charm,19th August:1|26th August:3|27th August:19|28th August:3|1st September:9|2nd September:3,Charms,0.0
 Fungal Flake,19th August:473,Polypore Dungeon,2.0
-Gold Charm,19th August:5|24th August:1|25th August:3|26th August:13|27th August:23|28th August:3|1st September:20,Charms,0.0
+Gold Charm,19th August:5|24th August:1|25th August:3|26th August:13|27th August:23|28th August:3|1st September:20|2nd September:3,Charms,0.0
 Gorajian Mushroom,19th August:12,Polypore Dungeon,48.0
-Green Charm,19th August:14|26th August:8|27th August:74|28th August:8|1st September:36,Charms,0.0
+Green Charm,19th August:14|26th August:8|27th August:74|28th August:8|1st September:36|2nd September:6,Charms,0.0
 Grimy Cadantine,19th August:1|26th August:3|27th August:3|28th August:2|1st September:3,Grimy Herbs,0.0
 Grimy Guam,19th August:2|26th August:18|27th August:13|28th August:3|1st September:21,Grimy Herbs,18.0
 Grimy Harralander,19th August:2|26th August:11|27th August:9|28th August:1|1st September:8,Grimy Herbs,0.0
@@ -39,8 +39,8 @@ Raw Oomlie,20th August:1,Raw Food,6.0
 Minnow,23rd August:33,Food,3.0
 Big Bones,24th August:5|25th August:6|27th August:8,Ashes and Bones,0.0
 Blood Rune,24th August:5|1st September:2,Runes,110.0
-Chocolate Cake,24th August:2,Food,42.0
-Coins,24th August:290|25th August:405|26th August:28472|27th August:122389|28th August:13483,Money,1.0
+Chocolate Cake,24th August:2|2nd September:3,Food,42.0
+Coins,24th August:290|25th August:405|26th August:28472|27th August:122389|28th August:13483|2nd September:1898,Money,1.0
 Cowhide,24th August:1|26th August:10,Resources,0.0
 Raw Beef,24th August:1|26th August:10,Raw Food,35.0
 Super Restore (4),24th August:1,Resources,180.0
@@ -124,19 +124,19 @@ Yellow Bead,27th August:4,Beads,2.0
 Ranarr Seed,28th August:3,Seeds,11.0
 Sealed Clue Scroll (Easy),28th August:3,Clue Scrolls,0.0
 Attack Potion (1),1st September:5,Potions,168.0
-Baby Dragon Bones,1st September:4,Ashes and Bones,0.0
+Baby Dragon Bones,1st September:4|2nd September:4,Ashes and Bones,0.0
 Bronze Javelin,1st September:45,Weapons,3.0
 Cabbage Seed,1st September:9,Seeds,15.0
 Coines,1st September:4541,Money,1.0
 Coral Bolts,1st September:240,Weapons,0.0
-Dragon Bones,1st September:7,Ashes and Bones,0.0
+Dragon Bones,1st September:7|2nd September:15,Ashes and Bones,0.0
 Dragon Longsword,1st September:1,Weapons,60000.0
 Eye of Newt,1st September:1,Resources,1.0
 Flax,1st September:40,Resources,3.0
 Nature Runes,1st September:29,Runes,74.0
 Onion Seed,1st September:18,Seeds,6.0
 Potato Seed,1st September:31,Seeds,4.0
-Red Dragonhide,1st September:7,Resources,36.0
+Red Dragonhide,1st September:7|2nd September:15,Resources,36.0
 Red Spiders Eggs,1st September:4,Resources,4.0
 Royal Cape,1st September:5,Cosmetic,300.0
 Silver Stone Spirit,1st September:7,Stone Spirits,0.0
@@ -150,3 +150,4 @@ Unicorn Horn Dust,1st September:2,Resources,12.0
 Vial of Water,1st September:11,Resources,6.0
 Water Rune,1st September:88,Runes,3.0
 White Berries,1st September:4,Resources,6.0
+Rune Arrow,2nd September:4,Weapons,306.0
