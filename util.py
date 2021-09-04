@@ -1,3 +1,5 @@
+import pandas as pd
+
 _DATE_COLUMN_NAME = "dates"
 _DATES_INNER_SEP = ":"
 _DATES_OUTER_SEP = "|"
@@ -14,6 +16,21 @@ class TextFormat:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
     END = '\033[0m'
+
+
+def _process_dates_from_string(data):
+    """ Converts string representation of quantity and dates to a dictionary
+    contained inside the pandas dataframe.
+
+    Args:
+        data: the pandas dataframe containing the string representation in the
+        'dates' column. Will be the same dataframe the dictionary is written
+        to.
+    """
+    for index, row in data.iterrows():
+        data.at[index, _DATE_COLUMN_NAME] = {
+            item.split(_DATES_INNER_SEP)[0]: item.split(_DATES_INNER_SEP)[1]
+            for item in row[_DATE_COLUMN_NAME].split(_DATES_OUTER_SEP)}
 
 
 def confirm_input(input_value, valid_values):
@@ -59,19 +76,30 @@ def process_dates_from_dict(data):
             for (key, val) in row[_DATE_COLUMN_NAME].items())
 
 
-def process_dates_from_string(data):
-    """ Converts string representation of quantity and dates to a dictionary
-    contained inside the pandas dataframe.
+def read_data_from_csv(testing, data_type):
+    """ Reads in the csv of the given data type (drops or kills) and returns it
+    in the form of a pandas dataframe.
 
     Args:
-        data: the pandas dataframe containing the string representation in the
-        'dates' column. Will be the same dataframe the dictionary is written
-        to.
+        testing: whether the program is in testing mode
+        data_type: the type of the data being read. Can either be drops
+            or kills.
+
+    Returns:
+        The dataframe created from this csv.
+
+    Raises:
+        AttributeError: if the provided data_type is not either drops or kills.
     """
-    for index, row in data.iterrows():
-        data.at[index, _DATE_COLUMN_NAME] = {
-            item.split(_DATES_INNER_SEP)[0]: item.split(_DATES_INNER_SEP)[1]
-            for item in row[_DATE_COLUMN_NAME].split(_DATES_OUTER_SEP)}
+    if data_type != "drops" and data_type != "kills":
+        raise AttributeError(f"{data_type} is not a valid data type")
+
+    filename = (f"test_data/{data_type}.csv" if testing
+                else f"{data_type}.csv")
+    data = pd.read_csv(filename)
+    _process_dates_from_string(data)
+
+    return data
 
 
 if __name__ == "__main__":

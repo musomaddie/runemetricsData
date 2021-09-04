@@ -1,7 +1,7 @@
 from util import TextFormat
 from util import confirm_input
 from util import process_dates_from_dict
-from util import process_dates_from_string
+from util import read_data_from_csv
 
 import pandas as pd
 
@@ -119,11 +119,8 @@ def start():
         input(f"Modifying {TextFormat.GREEN}drops{TextFormat.END} "
               f"or {TextFormat.GREEN}kills{TextFormat.END}? "),
         ["drops", "kills"])
-    # Set up the data
-    filename = (f"test_data/{decision_type}.csv" if TESTING
-                else f"{decision_type}.csv")
-    data = pd.read_csv(filename)
-    process_dates_from_string(data)
+
+    data = read_data_from_csv(TESTING, decision_type)
 
     decision = confirm_input(
         input(f"Adding {TextFormat.GREEN}details{TextFormat.END} "
@@ -136,6 +133,8 @@ def start():
 
     # Save the data
     process_dates_from_dict(data)
+    filename = (f"test_data/{decision_type}.csv" if TESTING
+                else f"{decision_type}.csv")
     data.to_csv(filename, index=False)
 
 
