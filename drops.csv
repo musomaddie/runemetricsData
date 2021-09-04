@@ -1,18 +1,18 @@
 drop,dates,category,average_worth
 Accursed Ashes,19th August:128|20th August:1|27th August:162,Ashes and Bones,1.0
 Bittercap Mushroom Spore,19th August:1,Seeds,51.0
-Blue Charm,19th August:1|25th August:1|26th August:6|27th August:2|2nd September:1,Charms,0.0
-Bones,19th August:4|20th August:7|24th August:1|25th August:1|26th August:10|27th August:204|1st September:120|2nd September:5,Ashes and Bones,0.0
+Blue Charm,19th August:1|25th August:1|26th August:6|27th August:2|2nd September:1|3rd September:1,Charms,0.0
+Bones,19th August:4|20th August:7|24th August:1|25th August:1|26th August:10|27th August:204|1st September:120|2nd September:5|3rd September:150,Ashes and Bones,0.0
 Chaos Rune,19th August:57|28th August:30,Runes,28.0
-Crimson Charm,19th August:1|26th August:3|27th August:19|28th August:3|1st September:9|2nd September:3,Charms,0.0
+Crimson Charm,19th August:1|26th August:3|27th August:19|28th August:3|1st September:9|2nd September:3|3rd September:12,Charms,0.0
 Fungal Flake,19th August:473,Polypore Dungeon,2.0
-Gold Charm,19th August:5|24th August:1|25th August:3|26th August:13|27th August:23|28th August:3|1st September:20|2nd September:3,Charms,0.0
+Gold Charm,19th August:5|24th August:1|25th August:3|26th August:13|27th August:23|28th August:3|1st September:20|2nd September:3|3rd September:10,Charms,0.0
 Gorajian Mushroom,19th August:12,Polypore Dungeon,48.0
-Green Charm,19th August:14|26th August:8|27th August:74|28th August:8|1st September:36|2nd September:6,Charms,0.0
-Grimy Cadantine,19th August:1|26th August:3|27th August:3|28th August:2|1st September:3,Grimy Herbs,0.0
-Grimy Guam,19th August:2|26th August:18|27th August:13|28th August:3|1st September:21,Grimy Herbs,18.0
-Grimy Harralander,19th August:2|26th August:11|27th August:9|28th August:1|1st September:8,Grimy Herbs,0.0
-Grimy Irit,19th August:1|26th August:3|27th August:2|1st September:6,Grimy Herbs,0.0
+Green Charm,19th August:14|26th August:8|27th August:74|28th August:8|1st September:36|2nd September:6|3rd September:28,Charms,0.0
+Grimy Cadantine,19th August:1|26th August:3|27th August:3|28th August:2|1st September:3|3rd September:1,Grimy Herbs,0.0
+Grimy Guam,19th August:2|26th August:18|27th August:13|28th August:3|1st September:21|3rd September:5,Grimy Herbs,18.0
+Grimy Harralander,19th August:2|26th August:11|27th August:9|28th August:1|1st September:8|3rd September:1,Grimy Herbs,0.0
+Grimy Irit,19th August:1|26th August:3|27th August:2|1st September:6|3rd September:1,Grimy Herbs,0.0
 Grimy Kwuarm,19th August:1|26th August:6|28th August:1|1st September:1,Grimy Herbs,0.0
 Grimy Ranarr,19th August:3|26th August:15|27th August:8|28th August:2|1st September:6,Grimy Herbs,0.0
 Grimy Tarromin,19th August:5|26th August:12|27th August:6|28th August:4|1st September:8,Grimy Herbs,0.0
@@ -40,7 +40,7 @@ Minnow,23rd August:33,Food,3.0
 Big Bones,24th August:5|25th August:6|27th August:8,Ashes and Bones,0.0
 Blood Rune,24th August:5|1st September:2,Runes,110.0
 Chocolate Cake,24th August:2|2nd September:3,Food,42.0
-Coins,24th August:290|25th August:405|26th August:28472|27th August:122389|28th August:13483|2nd September:1898,Money,1.0
+Coins,24th August:290|25th August:405|26th August:28472|27th August:122389|28th August:13483|2nd September:1898|3rd September:44906,Money,1.0
 Cowhide,24th August:1|26th August:10,Resources,0.0
 Raw Beef,24th August:1|26th August:10,Raw Food,35.0
 Super Restore (4),24th August:1,Resources,180.0
@@ -55,7 +55,7 @@ Fellstalk Seed,26th August:10,Seeds,38.0
 Ghostly Essence,26th August:51|27th August:2|28th August:3,Ingredients,60.0
 Grimy Avantoe,26th August:8|27th August:5|28th August:3|1st September:3,Grimy Herbs,0.0
 Grimy Lantadyme,26th August:4,Grimy Herbs,0.0
-Grimy Marrentill,26th August:13|27th August:9|28th August:3|1st September:16,Grimy Herbs,0.0
+Grimy Marrentill,26th August:13|27th August:9|28th August:3|1st September:16|3rd September:5,Grimy Herbs,0.0
 Jangerberries,26th August:4,Food,0.0
 Lava Battlestaff,26th August:3,Weapons,10200.0
 Medium Plated Rune Salvage,26th August:1,Salvage,24000.0
@@ -95,8 +95,8 @@ Iron Stone Spirit,27th August:39|28th August:4|1st September:10,Stone Spirits,0.
 Lobster,27th August:12,Food,160.0
 Meat Pizza,27th August:16,Food,30.0
 Medium Bladed Mithril Salvage,27th August:6,Salvage,1800.0
-Medium Bladed Steel Salvage,27th August:8,Salvage,720.0
-Medium Plated Mithril Salvage,27th August:17,Salvage,1800.0
+Medium Bladed Steel Salvage,27th August:8|3rd September:11,Salvage,720.0
+Medium Plated Mithril Salvage,27th August:17|3rd September:11,Salvage,1800.0
 Mind Rune,27th August:10|1st September:32,Runes,3.0
 Mithril Arrow,27th August:640,Weapons,45.0
 Muddy Key,27th August:1,Keys,0.0
@@ -111,8 +111,8 @@ Staff,27th August:2,Weapons,9.0
 Staff of Air,27th August:3|28th August:3,Weapons,900.0
 Thin Snail,27th August:3|28th August:1,Raw Food,36.0
 Tiny Plated Rune Salvage,27th August:2,Salvage,8000.0
-Uncut Emerald,27th August:2|1st September:2,Gems,30.0
-Uncut Sapphire,27th August:9|1st September:3,Gems,15.0
+Uncut Emerald,27th August:2|1st September:2|3rd September:4,Gems,30.0
+Uncut Sapphire,27th August:9|1st September:3|3rd September:1,Gems,15.0
 Watermelon Seed,27th August:1|28th August:1|1st September:2,Seeds,33.0
 Wheat,27th August:3,Food,1.0
 White Bead,27th August:2,Beads,2.0
@@ -140,14 +140,21 @@ Red Dragonhide,1st September:7|2nd September:15,Resources,36.0
 Red Spiders Eggs,1st September:4,Resources,4.0
 Royal Cape,1st September:5,Cosmetic,300.0
 Silver Stone Spirit,1st September:7,Stone Spirits,0.0
-Spirit Ruby,1st September:2,Spirit Gems,0.0
+Spirit Ruby,1st September:2|3rd September:1,Spirit Gems,0.0
 Strength Potion (1),1st September:3,Potions,360.0
 Sweetcorn Seed,1st September:3,Seeds,4.0
-Tiny Bladed Mithril Salvage,1st September:1,Salvage,600.0
+Tiny Bladed Mithril Salvage,1st September:1|3rd September:12,Salvage,600.0
 Tiny Plated Bronze Salvage,1st September:5,Salvage,20.0
 Trout,1st September:6,Food,40.0
 Unicorn Horn Dust,1st September:2,Resources,12.0
 Vial of Water,1st September:11,Resources,6.0
-Water Rune,1st September:88,Runes,3.0
+Water Rune,1st September:88|3rd September:280,Runes,3.0
 White Berries,1st September:4,Resources,6.0
 Rune Arrow,2nd September:4,Weapons,306.0
+Basilisk Head,3rd September:1,Special Drops,0.0
+Light Mystic Hat,3rd September:1,Armour,6000.0
+Mithril Stone Spirit,3rd September:9,Stone Spirits,0.0
+Small Plated Adamant Salvage,3rd September:5,Salvage,4000.0
+Staff of Water,3rd September:14,Weapons,900.0
+Tiny Spiky Mithril Salvage,3rd September:8,Salvage,600.0
+Tiny Spiky Rune Salvage,3rd September:3,Salvage,8000.0
