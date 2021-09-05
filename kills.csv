@@ -6,7 +6,7 @@ Fungal Rodent,19th August:3,26.0,Creature
 Adolescent White Wolf,19th August:2,8.0,Wild Animals
 Agrith Naar,19th August:1,84.0,Quest Boss
 Guardian of Armadyl,20th August:5,42.0,Creature
-Rat,20th August:4,1.0,Wild Animal
+Rat,20th August:4|4th September:20,1.0,Wild Animal
 Jungle Wolf,20th August:3,88.0,Wild Animal
 Nezikchened,20th August:3,84.0,Quest Boss
 Death Wing,20th August:1,77.0,Creature
@@ -26,7 +26,7 @@ Bat,25th August:1,14.0,Creature
 Damis,25th August:1,86.0,Quest Enemy
 Fareed,25th August:1,84.0,Quest Enemy
 Fire Elemental,25th August:1,44.0,Creature
-Fire Giant,25th August:5,85.0,Creature
+Fire Giant,25th August:5|4th September:152,85.0,Creature
 Giant Skeleton,25th August:1,84.0,Creature
 Mummy,25th August:1,77.0,Creature
 Scarabs,25th August:2|26th August:1,86.0,Creature
@@ -53,15 +53,15 @@ Skeleton (54),28th August:1|3rd September:3,54.0,Dungeoneering Monster
 Skeleton (43),28th August:1|3rd September:5,43.0,Dungeoneering Monster
 Unholy Curserbearer (64),28th August:1,64.0,Dungeoneering Boss
 Zombie (82),28th August:1,82.0,Dungeoneering Monster
-Baby Red Dragon,1st September:4|2nd September:4,47.0,Slayer Monster
+Baby Red Dragon,1st September:4|2nd September:4|4th September:22,47.0,Slayer Monster
 Cave Crawler (53),1st September:5,53.0,Slayer Monster
 Cave Crawler (74),1st September:10,74.0,Slayer Monster
 Cave Crawler (78),1st September:109,78.0,Slayer Monster
 Dagannoth,1st September:1,100.0,Quest Enemy
 Dagannoth Mother,1st September:1,84.0,Quest Boss
 Monstrous Cave Crawler,1st September:1,96.0,Slayer Boss
-Red Dragon,1st September:7|2nd September:15,84.0,Slayer Monster
-Wild Dog,1st September:2|2nd September:5,35.0,Creature
+Red Dragon,1st September:7|2nd September:15|4th September:39,84.0,Slayer Monster
+Wild Dog,1st September:2|2nd September:5|4th September:15,35.0,Creature
 Young Grotworm,1st September:118,28.0,Slayer Monster
 Animated Pickaxe,3rd September:1,35.0,Dungeoneering Monster
 Basilisk (70),3rd September:116,70.0,Slayer Monster
@@ -76,3 +76,5 @@ Skeleton (30),3rd September:4,30.0,Dungeoneering Monster
 Skeleton (67),3rd September:2,67.0,Dungeoneering Monster
 Skeleton (18),3rd September:1,18.0,Dungeoneering Monster
 Zombie (56),3rd September:1,56.0,Dungeoneering Monster
+Mugger,4th September:1,15.0,Creature
+Pyrefiend,4th September:65,61.0,Slayer Creature
