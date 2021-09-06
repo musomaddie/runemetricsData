@@ -57,7 +57,7 @@ def confirm_input(input_value, valid_values, case_sensitive=False):
     str_list = (f"{TextFormat.GREEN}{list_joiner.join(valid_values)}"
                 f"{TextFormat.END}")
     input_value = input_value if case_sensitive else input_value.lower()
-    while input_value.lower() not in valid_values:
+    while input_value not in valid_values:
         print(f"{input_value} is not a valid option.")
         input_value = input(f"Please choose from {str_list}: ")
         input_value = input_value if case_sensitive else input_value.lower()
@@ -105,7 +105,3 @@ def read_data_from_csv(testing, data_type):
     _process_dates_from_string(data)
 
     return data
-
-
-if __name__ == "__main__":
-    confirm_input("Testing", ["one", "two"])
