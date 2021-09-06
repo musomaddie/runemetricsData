@@ -7,7 +7,7 @@ import pandas as pd
 
 
 DATE_COLUMN_NAME = "dates"
-TESTING = True
+TESTING = False
 
 
 def _add_value(data, date, item, quantity, item_type):
