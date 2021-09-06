@@ -33,7 +33,7 @@ def _process_dates_from_string(data):
             for item in row[_DATE_COLUMN_NAME].split(_DATES_OUTER_SEP)}
 
 
-def confirm_input(input_value, valid_values):
+def confirm_input(input_value, valid_values, case_sensitive=False):
     """ Takes input from the user until it is valid.
 
     Continues prompting the user for input until the input provided is equal to
@@ -42,6 +42,7 @@ def confirm_input(input_value, valid_values):
     Args:
         input_value: the initial input provided from the user
         valid_values: a list of all strings that will be accepted.
+        case_sensitive: unless true allow any cases to match. Default False
 
     Returns:
         the input entered that matches one of the valid values
@@ -50,12 +51,16 @@ def confirm_input(input_value, valid_values):
         EOFError: if the user force closes the input stream
         without providing valid input.
     """
+    if not case_sensitive:
+        valid_values = [x.lower() for x in valid_values]
     list_joiner = f"{TextFormat.END}, {TextFormat.GREEN}"
     str_list = (f"{TextFormat.GREEN}{list_joiner.join(valid_values)}"
                 f"{TextFormat.END}")
+    input_value = input_value if case_sensitive else input_value.lower()
     while input_value.lower() not in valid_values:
         print(f"{input_value} is not a valid option.")
         input_value = input(f"Please choose from {str_list}: ")
+        input_value = input_value if case_sensitive else input_value.lower()
     return input_value
 
 
