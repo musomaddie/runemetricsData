@@ -50,7 +50,6 @@ def confirm_input(input_value, valid_values):
         EOFError: if the user force closes the input stream
         without providing valid input.
     """
-    valid_values = [x.lower() for x in valid_values]
     list_joiner = f"{TextFormat.END}, {TextFormat.GREEN}"
     str_list = (f"{TextFormat.GREEN}{list_joiner.join(valid_values)}"
                 f"{TextFormat.END}")
