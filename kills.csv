@@ -1,8 +1,8 @@
 kill,dates,level,category
-Fungal Mage,19th August:128,81.0,Creature
-Infested Axe,19th August:13,105.0,Creature
+Fungal Mage,19th August:128|6th September:95,81.0,Creature
+Infested Axe,19th August:13|6th September:9,105.0,Creature
 Wolf,19th August:4|5th September:14,42.0,Wild Animal
-Fungal Rodent,19th August:3,26.0,Creature
+Fungal Rodent,19th August:3|6th September:2,26.0,Creature
 Adolescent White Wolf,19th August:2|5th September:12,8.0,Wild Animals
 Agrith Naar,19th August:1,84.0,Quest Boss
 Guardian of Armadyl,20th August:5,42.0,Creature
@@ -31,7 +31,7 @@ Giant Skeleton,25th August:1,84.0,Creature
 Mummy,25th August:1,77.0,Creature
 Scarabs,25th August:2|26th August:1,86.0,Creature
 Shadow Hound,25th August:1,67.0,Creature
-Aberrant Spectre,26th August:93,72.0,Slayer Monster
+Aberrant Spectre,26th August:93|6th September:128,72.0,Slayer Monster
 Banshee,27th August:100|28th August:83,37.0,Slayer Monster
 Bloodveld (61),27th August:101,61.0,Slayer Monster
 Bloodveld (68),27th August:83,68.0,Slayer Monster
@@ -78,4 +78,10 @@ Skeleton (18),3rd September:1,18.0,Dungeoneering Monster
 Zombie (56),3rd September:1,56.0,Dungeoneering Monster
 Mugger,4th September:1,15.0,Creature
 Pyrefiend,4th September:65,61.0,Slayer Creature
-Rabbit,5th September:1,1.0,Animal
+Rabbit,5th September:1|6th September:1,1.0,Animal
+Black Dragon,6th September:2,100.0,Creature
+Chicken,6th September:1,1.0,Animal
+Crab,6th September:1,29.0,Animal
+Evil Chicken,6th September:1,77.0,Quest Monster
+Mudskipper,6th September:4,33.0,Creature
+Mudskipper (35),6th September:1,35.0,Creature
