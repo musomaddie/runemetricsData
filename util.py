@@ -64,7 +64,7 @@ def confirm_input(input_value, valid_values, case_sensitive=False):
     return input_value
 
 
-def process_dates_from_dict(data):
+def _process_dates_from_dict(data):
     """ Converts the dictionary representation of dates and quantity back to a
     string.
 
@@ -81,27 +81,40 @@ def process_dates_from_dict(data):
             for (key, val) in row[_DATE_COLUMN_NAME].items())
 
 
-def read_data_from_csv(testing, data_type):
-    """ Reads in the csv of the given data type (drops or kills) and returns it
-    in the form of a pandas dataframe.
+def make_filename(testing, data_type):
+    """
+    Raises:
+        AttributeError: if the provided data_type is not either drops or kills.
+    """
+    if data_type != "drops" and data_type != "kills":
+        raise AttributeError(f"{data_type} is not valid.")
+    return f"test_data/{data_type}.csv" if testing else f"{data_type}.csv"
+
+
+def read_data_from_csv(filename):
+    """ Reads in the csv of the filename and returns it in the form of a pandas
+    dataframe.
 
     Args:
-        testing: whether the program is in testing mode
-        data_type: the type of the data being read. Can either be drops
-            or kills.
+        filename: the filname of the csv to read.
 
     Returns:
         The dataframe created from this csv.
 
     Raises:
-        AttributeError: if the provided data_type is not either drops or kills.
+        FileNotFoundError: if the filename provided is incorrect
     """
-    if data_type != "drops" and data_type != "kills":
-        raise AttributeError(f"{data_type} is not a valid data type")
-
-    filename = (f"test_data/{data_type}.csv" if testing
-                else f"{data_type}.csv")
     data = pd.read_csv(filename)
     _process_dates_from_string(data)
-
     return data
+
+
+def write_data_to_csv(filename, data):
+    """ Writes the given datatype to csv.
+
+    Args:
+        filename: the filename to write to
+        data: the dataframe being written to csv
+    """
+    _process_dates_from_dict(data)
+    data.to_csv(filename, index=False)

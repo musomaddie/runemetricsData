@@ -1,7 +1,8 @@
 from util import TextFormat
 from util import confirm_input
-from util import process_dates_from_dict
+from util import make_filename
 from util import read_data_from_csv
+from util import write_data_to_csv
 
 import pandas as pd
 
@@ -120,7 +121,7 @@ def start():
               f"or {TextFormat.GREEN}kills{TextFormat.END}? "),
         ["drops", "kills"])
 
-    data = read_data_from_csv(TESTING, decision_type)
+    data = read_data_from_csv(make_filename(TESTING, decision_type))
 
     decision = confirm_input(
         input(f"Adding {TextFormat.GREEN}details{TextFormat.END} "
@@ -131,11 +132,7 @@ def start():
     else:
         data = add_new_values(data, decision_type[:-1])
 
-    # Save the data
-    process_dates_from_dict(data)
-    filename = (f"test_data/{decision_type}.csv" if TESTING
-                else f"{decision_type}.csv")
-    data.to_csv(filename, index=False)
+    write_data_to_csv(make_filename(TESTING, decision_type), data)
 
 
 if __name__ == "__main__":
