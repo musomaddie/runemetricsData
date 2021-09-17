@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="92bbb0b5-63ed-4c7c-bba1-46dc13d32efe" data-root-id="1002"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1144">
+          {"1a49731c-a1e4-4ffe-b2c7-057d7faa998c":{"defs":[],"roots":{"references":[{"attributes":{},"id":"1018","type":"CategoricalTicker"},{"attributes":{},"id":"1034","type":"UnionRenderers"},{"attributes":{"source":{"id":"1021"}},"id":"1026","type":"CDSView"},{"attributes":{},"id":"1029","type":"CategoricalTickFormatter"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#1f77b4"},"hatch_alpha":{"value":0.2},"height":{"value":0.9},"line_alpha":{"value":0.2},"line_color":{"value":"#1f77b4"},"right":{"field":"right"},"y":{"field":"y"}},"id":"1024","type":"HBar"},{"attributes":{"coordinates":null,"group":null,"text":"Starting"},"id":"1003","type":"Title"},{"attributes":{},"id":"1035","type":"Selection"},{"attributes":{"axis":{"id":"1013"},"coordinates":null,"group":null,"ticker":null},"id":"1016","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"hatch_alpha":{"value":0.1},"height":{"value":0.9},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"field":"right"},"y":{"field":"y"}},"id":"1023","type":"HBar"},{"attributes":{"fill_color":{"value":"#1f77b4"},"height":{"value":0.9},"line_color":{"value":"#1f77b4"},"right":{"field":"right"},"y":{"field":"y"}},"id":"1022","type":"HBar"},{"attributes":{},"id":"1030","type":"AllLabels"},{"attributes":{"coordinates":null,"data_source":{"id":"1021"},"glyph":{"id":"1022"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1024"},"nonselection_glyph":{"id":"1023"},"view":{"id":"1026"}},"id":"1025","type":"GlyphRenderer"},{"attributes":{"coordinates":null,"formatter":{"id":"1029"},"group":null,"major_label_policy":{"id":"1030"},"ticker":{"id":"1018"}},"id":"1017","type":"CategoricalAxis"},{"attributes":{},"id":"1014","type":"BasicTicker"},{"attributes":{"start":0},"id":"1005","type":"DataRange1d"},{"attributes":{},"id":"1032","type":"BasicTickFormatter"},{"attributes":{"data":{"right":[37357,37396,47570,54328,88074,104754,148482,151504,199604,204972,207186,212800,281568,295550,299654,337632,382581,383335,417608,425258,499425,511687,560688,632516,806653,1272427,1723674],"y":["Summoning","Archaoelogy","Divination","Hunter","Dungeoneering","Firemaking","Agility","Runecrafting","Strength","Ranged","Attack","Farming","Fletching","Fishing","Construction","Herblore","Prayer","Slayer","Smithing","Woodcutting","Magic","Constitution","Cooking","Defence","Crafting","Thieving","Mining"]},"selected":{"id":"1035"},"selection_policy":{"id":"1034"}},"id":"1021","type":"ColumnDataSource"},{"attributes":{"below":[{"id":"1013"}],"center":[{"id":"1016"},{"id":"1019"}],"left":[{"id":"1017"}],"renderers":[{"id":"1025"}],"title":{"id":"1003"},"toolbar":{"id":"1020"},"toolbar_location":null,"x_range":{"id":"1005"},"x_scale":{"id":"1009"},"y_range":{"id":"1007"},"y_scale":{"id":"1011"}},"id":"1002","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1033","type":"AllLabels"},{"attributes":{},"id":"1009","type":"LinearScale"},{"attributes":{"coordinates":null,"formatter":{"id":"1032"},"group":null,"major_label_policy":{"id":"1033"},"ticker":{"id":"1014"}},"id":"1013","type":"LinearAxis"},{"attributes":{"factors":["Summoning","Archaoelogy","Divination","Hunter","Dungeoneering","Firemaking","Agility","Runecrafting","Strength","Ranged","Attack","Farming","Fletching","Fishing","Construction","Herblore","Prayer","Slayer","Smithing","Woodcutting","Magic","Constitution","Cooking","Defence","Crafting","Thieving","Mining"]},"id":"1007","type":"FactorRange"},{"attributes":{},"id":"1011","type":"CategoricalScale"},{"attributes":{},"id":"1020","type":"Toolbar"},{"attributes":{"axis":{"id":"1017"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"1019","type":"Grid"}],"root_ids":["1002"]},"title":"Bokeh Application","version":"2.4.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('1144').textContent;
+                  const render_items = [{"docid":"1a49731c-a1e4-4ffe-b2c7-057d7faa998c","root_ids":["1002"],"roots":{"1002":"92bbb0b5-63ed-4c7c-bba1-46dc13d32efe"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
